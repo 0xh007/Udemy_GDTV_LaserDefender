@@ -21,11 +21,18 @@ public class Player : MonoBehaviour
     
     #endregion
 
+    #region Cached References
+
+    private SpriteRenderer _mySpriteRenderer; 
+    
+    #endregion
+    
     #region Private Methods
 
     // Start is called before the first frame update
     private void Start()
     {
+        _mySpriteRenderer = FindObjectOfType<SpriteRenderer>();
         InitializeMoveBoundaries();
     }
 
@@ -37,12 +44,19 @@ public class Player : MonoBehaviour
 
     private void InitializeMoveBoundaries()
     {
+        var shipSize = _mySpriteRenderer.size;
+        var shipWidth = shipSize.x;
+        var shipHeight = shipSize.y;
+        
         var gameCamera = Camera.main;
-        _viewportXMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x;
-        _viewportXMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x;
+        if (gameCamera != null)
+        {
+            _viewportXMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).x + shipWidth / 2;
+            _viewportXMax = gameCamera.ViewportToWorldPoint(new Vector3(1, 0, 0)).x - shipWidth / 2;
 
-        _viewportYMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y;
-        _viewportYMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y;
+            _viewportYMin = gameCamera.ViewportToWorldPoint(new Vector3(0, 0, 0)).y + shipHeight / 2;
+            _viewportYMax = gameCamera.ViewportToWorldPoint(new Vector3(0, 1, 0)).y - shipHeight / 2;
+        }
     }
 
     private void DetectMovement()
