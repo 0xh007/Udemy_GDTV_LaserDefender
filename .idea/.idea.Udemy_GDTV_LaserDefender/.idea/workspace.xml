@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb45b35-4dd4-4cc4-ba41-8a56975d5d11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Player.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/indexLayout.xml" afterDir="false" />
+    <list default="true" id="4fb45b35-4dd4-4cc4-ba41-8a56975d5d11" name="Default Changelist" comment="Restricted player movement to viewport">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Placeholder.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Placeholder.cs.meta" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,35 +15,19 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="307">
-              <caret line="55" column="91" selection-start-line="55" selection-start-column="91" selection-end-line="55" selection-end-column="91" />
+            <state relative-caret-position="200">
+              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
               <folding>
-                <marker date="1559570004105" expanded="true" signature="55:1672" ph="{...}" />
-                <marker date="1559570004105" expanded="true" signature="62:179" ph="Configuration Parameters" />
-                <marker date="1559570004105" expanded="true" signature="189:380" ph="Private Members" />
-                <marker date="1559570004105" expanded="true" signature="386:1670" ph="Private Methods" />
-                <marker date="1559570004105" expanded="true" signature="488:536" ph="{...}" />
-                <marker date="1559570004105" expanded="true" signature="602:640" ph="{...}" />
-                <marker date="1559570004105" expanded="true" signature="685:1060" ph="{...}" />
-                <marker date="1559570004105" expanded="true" signature="1095:1650" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-              <folding>
-                <marker date="1559568271174" expanded="true" signature="26:333" ph="{...}" />
-                <marker date="1559568271174" expanded="true" signature="60:331" ph="{...}" />
-                <marker date="1559568271174" expanded="true" signature="75:126" ph="Configuration Parameters" />
-                <marker date="1559568271174" expanded="false" signature="136:168" ph="State" />
-                <marker date="1559568271174" expanded="false" signature="178:222" ph="Cached References" />
-                <marker date="1559568271174" expanded="false" signature="232:273" ph="Public Methods" />
-                <marker date="1559568271174" expanded="false" signature="283:325" ph="Private Methods" />
+                <marker date="1559571533486" expanded="true" signature="55:2102" ph="{...}" />
+                <marker date="1559571533486" expanded="true" signature="62:179" ph="Configuration Parameters" />
+                <marker date="1559571533486" expanded="true" signature="189:380" ph="Private Members" />
+                <marker date="1559571533486" expanded="true" signature="386:479" ph="Cached References" />
+                <marker date="1559571533486" expanded="true" signature="489:2100" ph="Private Methods" />
+                <marker date="1559571533486" expanded="true" signature="591:703" ph="{...}" />
+                <marker date="1559571533486" expanded="true" signature="769:807" ph="{...}" />
+                <marker date="1559571533486" expanded="true" signature="852:1490" ph="{...}" />
+                <marker date="1559571533486" expanded="true" signature="1057:1484" ph="{...}" />
+                <marker date="1559571533486" expanded="true" signature="1525:2080" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -64,6 +41,7 @@
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor.meta" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,7 +141,7 @@
       <option name="presentableId" value="Default" />
       <updated>1559259675404</updated>
       <workItem from="1559259681069" duration="362000" />
-      <workItem from="1559565295468" duration="4616000" />
+      <workItem from="1559565295468" duration="6435000" />
     </task>
     <task id="LOCAL-00001" summary="Generated project and solution files">
       <created>1559259740818</created>
@@ -172,11 +150,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559259740818</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added in basic movement">
+      <created>1559570138318</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1559570138318</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Restricted player movement to viewport">
+      <created>1559571687796</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1559571687796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4978000" />
+    <option name="totallyTimeSpent" value="6797000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -189,7 +181,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="0" width="1309" height="1087" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21617293" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -220,7 +211,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generated project and solution files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Generated project and solution files" />
+    <MESSAGE value="Added in basic movement" />
+    <MESSAGE value="Restricted player movement to viewport" />
+    <option name="LAST_COMMIT_MESSAGE" value="Restricted player movement to viewport" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -255,17 +248,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="307">
-          <caret line="55" column="91" selection-start-line="55" selection-start-column="91" selection-end-line="55" selection-end-column="91" />
+        <state relative-caret-position="200">
+          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
           <folding>
-            <marker date="1559570004105" expanded="true" signature="55:1672" ph="{...}" />
-            <marker date="1559570004105" expanded="true" signature="62:179" ph="Configuration Parameters" />
-            <marker date="1559570004105" expanded="true" signature="189:380" ph="Private Members" />
-            <marker date="1559570004105" expanded="true" signature="386:1670" ph="Private Methods" />
-            <marker date="1559570004105" expanded="true" signature="488:536" ph="{...}" />
-            <marker date="1559570004105" expanded="true" signature="602:640" ph="{...}" />
-            <marker date="1559570004105" expanded="true" signature="685:1060" ph="{...}" />
-            <marker date="1559570004105" expanded="true" signature="1095:1650" ph="{...}" />
+            <marker date="1559571533486" expanded="true" signature="55:2102" ph="{...}" />
+            <marker date="1559571533486" expanded="true" signature="62:179" ph="Configuration Parameters" />
+            <marker date="1559571533486" expanded="true" signature="189:380" ph="Private Members" />
+            <marker date="1559571533486" expanded="true" signature="386:479" ph="Cached References" />
+            <marker date="1559571533486" expanded="true" signature="489:2100" ph="Private Methods" />
+            <marker date="1559571533486" expanded="true" signature="591:703" ph="{...}" />
+            <marker date="1559571533486" expanded="true" signature="769:807" ph="{...}" />
+            <marker date="1559571533486" expanded="true" signature="852:1490" ph="{...}" />
+            <marker date="1559571533486" expanded="true" signature="1057:1484" ph="{...}" />
+            <marker date="1559571533486" expanded="true" signature="1525:2080" ph="{...}" />
           </folding>
         </state>
       </provider>
