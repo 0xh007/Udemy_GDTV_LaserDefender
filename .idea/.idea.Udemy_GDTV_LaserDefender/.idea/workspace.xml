@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4fb45b35-4dd4-4cc4-ba41-8a56975d5d11" name="Default Changelist" comment="Restricted player movement to viewport">
+    <list default="true" id="4fb45b35-4dd4-4cc4-ba41-8a56975d5d11" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Staging/Space Shooter Visual Assets/PNG/Lasers/laserGreen05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Assets Staging/Space Shooter Visual Assets/PNG/Lasers/laserGreen05.png.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,22 +15,30 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-261">
+              <caret line="62" selection-start-line="62" selection-end-line="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
-              <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+            <state relative-caret-position="-662">
               <folding>
-                <marker date="1559571533486" expanded="true" signature="55:2102" ph="{...}" />
-                <marker date="1559571533486" expanded="true" signature="62:179" ph="Configuration Parameters" />
-                <marker date="1559571533486" expanded="true" signature="189:380" ph="Private Members" />
-                <marker date="1559571533486" expanded="true" signature="386:479" ph="Cached References" />
-                <marker date="1559571533486" expanded="true" signature="489:2100" ph="Private Methods" />
-                <marker date="1559571533486" expanded="true" signature="591:703" ph="{...}" />
-                <marker date="1559571533486" expanded="true" signature="769:807" ph="{...}" />
-                <marker date="1559571533486" expanded="true" signature="852:1490" ph="{...}" />
-                <marker date="1559571533486" expanded="true" signature="1057:1484" ph="{...}" />
-                <marker date="1559571533486" expanded="true" signature="1525:2080" ph="{...}" />
+                <marker date="1559616244993" expanded="true" signature="55:2102" ph="{...}" />
+                <marker date="1559616244993" expanded="true" signature="62:179" ph="Configuration Parameters" />
+                <marker date="1559616244993" expanded="true" signature="189:380" ph="Private Members" />
+                <marker date="1559616244993" expanded="true" signature="386:479" ph="Cached References" />
+                <marker date="1559616244993" expanded="true" signature="489:2100" ph="Private Methods" />
+                <marker date="1559616244993" expanded="true" signature="591:703" ph="{...}" />
+                <marker date="1559616244993" expanded="true" signature="769:807" ph="{...}" />
+                <marker date="1559616244993" expanded="true" signature="852:1490" ph="{...}" />
+                <marker date="1559616244993" expanded="true" signature="1057:1484" ph="{...}" />
+                <marker date="1559616244993" expanded="true" signature="1525:2080" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -36,35 +47,30 @@
     </leaf>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor.meta" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="67" />
-    <option name="width" value="1309" />
-    <option name="height" value="1087" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="164" />
+    <option name="y" value="40" />
+    <option name="width" value="2552" />
+    <option name="height" value="1744" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="UnityExplorer" proportions="" version="1">
+    <navigator currentView="FileSystemExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -72,17 +78,16 @@
               <item name="" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="8711f2a6:AssetsRoot" />
             </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer">
         <subPane>
           <expand>
@@ -103,7 +108,6 @@
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,8 +144,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1559259675404</updated>
-      <workItem from="1559259681069" duration="362000" />
-      <workItem from="1559565295468" duration="6435000" />
+      <workItem from="1559259681069" duration="1013000" />
+      <workItem from="1559615801795" duration="1436000" />
     </task>
     <task id="LOCAL-00001" summary="Generated project and solution files">
       <created>1559259740818</created>
@@ -150,25 +154,25 @@
       <option name="project" value="LOCAL" />
       <updated>1559259740818</updated>
     </task>
-    <task id="LOCAL-00002" summary="Added in basic movement">
-      <created>1559570138318</created>
+    <task id="LOCAL-00002" summary="Checked in some files I that weren't versioned">
+      <created>1559260083090</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1559570138318</updated>
+      <updated>1559260083090</updated>
     </task>
-    <task id="LOCAL-00003" summary="Restricted player movement to viewport">
-      <created>1559571687796</created>
+    <task id="LOCAL-00003" summary="Updated gitignore">
+      <created>1559616150545</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1559571687796</updated>
+      <updated>1559616150545</updated>
     </task>
     <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6797000" />
+    <option name="totallyTimeSpent" value="2449000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -180,9 +184,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="0" width="1309" height="1087" extended-state="0" />
+    <frame x="66" y="-6" width="1309" height="925" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21617293" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2533973" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -195,11 +200,11 @@
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" visible="true" weight="0.32889345" />
+      <window_info active="true" anchor="bottom" id="Version Control" order="10" sideWeight="0.49960032" visible="true" weight="0.32880098" />
       <window_info anchor="bottom" id="Unity" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
-      <window_info anchor="bottom" id="Event Log" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5003997" side_tool="true" weight="0.32880098" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -211,9 +216,9 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Generated project and solution files" />
-    <MESSAGE value="Added in basic movement" />
-    <MESSAGE value="Restricted player movement to viewport" />
-    <option name="LAST_COMMIT_MESSAGE" value="Restricted player movement to viewport" />
+    <MESSAGE value="Checked in some files I that weren't versioned" />
+    <MESSAGE value="Updated gitignore" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated gitignore" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -226,41 +231,34 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Placeholder.cs" />
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Block.cs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Placeholder.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="17" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-          <folding>
-            <marker date="1559568271174" expanded="true" signature="26:333" ph="{...}" />
-            <marker date="1559568271174" expanded="true" signature="60:331" ph="{...}" />
-            <marker date="1559568271174" expanded="true" signature="75:126" ph="Configuration Parameters" />
-            <marker date="1559568271174" expanded="false" signature="136:168" ph="State" />
-            <marker date="1559568271174" expanded="false" signature="178:222" ph="Cached References" />
-            <marker date="1559568271174" expanded="false" signature="232:273" ph="Public Methods" />
-            <marker date="1559568271174" expanded="false" signature="283:325" ph="Private Methods" />
-          </folding>
+        <state relative-caret-position="105">
+          <caret line="7" column="15" selection-start-line="7" selection-start-column="15" selection-end-line="7" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-261">
+          <caret line="62" selection-start-line="62" selection-end-line="62" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="47" column="34" selection-start-line="47" selection-start-column="34" selection-end-line="47" selection-end-column="34" />
+        <state relative-caret-position="-662">
           <folding>
-            <marker date="1559571533486" expanded="true" signature="55:2102" ph="{...}" />
-            <marker date="1559571533486" expanded="true" signature="62:179" ph="Configuration Parameters" />
-            <marker date="1559571533486" expanded="true" signature="189:380" ph="Private Members" />
-            <marker date="1559571533486" expanded="true" signature="386:479" ph="Cached References" />
-            <marker date="1559571533486" expanded="true" signature="489:2100" ph="Private Methods" />
-            <marker date="1559571533486" expanded="true" signature="591:703" ph="{...}" />
-            <marker date="1559571533486" expanded="true" signature="769:807" ph="{...}" />
-            <marker date="1559571533486" expanded="true" signature="852:1490" ph="{...}" />
-            <marker date="1559571533486" expanded="true" signature="1057:1484" ph="{...}" />
-            <marker date="1559571533486" expanded="true" signature="1525:2080" ph="{...}" />
+            <marker date="1559616244993" expanded="true" signature="55:2102" ph="{...}" />
+            <marker date="1559616244993" expanded="true" signature="62:179" ph="Configuration Parameters" />
+            <marker date="1559616244993" expanded="true" signature="189:380" ph="Private Members" />
+            <marker date="1559616244993" expanded="true" signature="386:479" ph="Cached References" />
+            <marker date="1559616244993" expanded="true" signature="489:2100" ph="Private Methods" />
+            <marker date="1559616244993" expanded="true" signature="591:703" ph="{...}" />
+            <marker date="1559616244993" expanded="true" signature="769:807" ph="{...}" />
+            <marker date="1559616244993" expanded="true" signature="852:1490" ph="{...}" />
+            <marker date="1559616244993" expanded="true" signature="1057:1484" ph="{...}" />
+            <marker date="1559616244993" expanded="true" signature="1525:2080" ph="{...}" />
           </folding>
         </state>
       </provider>

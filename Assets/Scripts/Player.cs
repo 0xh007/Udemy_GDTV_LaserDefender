@@ -6,6 +6,9 @@ public class Player : MonoBehaviour
     
     [SerializeField]
     private float movementSpeed = 10f;
+
+    [SerializeField] 
+    private GameObject laserPrefab;
     
     #endregion
     
