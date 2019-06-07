@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Collections;
+using System.Runtime.ExceptionServices;
+using UnityEngine;
 
 public class Player : MonoBehaviour
 {
@@ -9,6 +11,12 @@ public class Player : MonoBehaviour
 
     [SerializeField] 
     private GameObject laserPrefab;
+
+    [SerializeField]
+    private float projectileSpeed = 10f;
+
+    [SerializeField]
+    private float projectileFiringPeriod = 0.1f;
     
     #endregion
     
@@ -22,6 +30,8 @@ public class Player : MonoBehaviour
     
     private float _viewportYMax;
     
+    private Coroutine _firingCoroutine;
+    
     #endregion
 
     #region Cached References
@@ -30,21 +40,51 @@ public class Player : MonoBehaviour
     
     #endregion
     
-    #region Private Methods
-
+    #region Unity Events
+    
     // Start is called before the first frame update
     private void Start()
     {
         _mySpriteRenderer = FindObjectOfType<SpriteRenderer>();
         InitializeMoveBoundaries();
+
     }
 
     // Update is called once per frame
     private void Update()
     {
         DetectMovement();
+        Fire();
+    }
+    
+    #endregion
+    
+    #region Private Methods
+
+    private void Fire()
+    {
+        if (Input.GetButtonDown("Fire1"))
+        {
+            _firingCoroutine = StartCoroutine(FireContinuously());
+        }
+
+        if (Input.GetButtonUp("Fire1"))
+        {
+           StopCoroutine(_firingCoroutine); 
+        }
     }
 
+    private IEnumerator FireContinuously()
+    {
+        while (true)
+        {
+            var laser = Instantiate(laserPrefab, transform.position, Quaternion.identity);
+            laser.GetComponent<Rigidbody2D>().velocity = new Vector2(0, projectileSpeed);
+            
+            yield return new WaitForSeconds(projectileFiringPeriod);
+        }
+    }
+    
     private void InitializeMoveBoundaries()
     {
         var shipSize = _mySpriteRenderer.size;
