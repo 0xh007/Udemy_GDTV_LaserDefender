@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4fb45b35-4dd4-4cc4-ba41-8a56975d5d11" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Shredder.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Udemy_GDTV_LaserDefender/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Enemy.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Player Laser.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Player Laser.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Game.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Game.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/Space-Background-Tiled.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/Space-Background-Tiled.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/enemyRed1.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/enemyRed1.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/laserGreen05.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/laserGreen05.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Sprites/playerShip1_green.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Sprites/playerShip1_green.png.meta" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,44 +23,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="427">
-              <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
-              <folding>
-                <marker date="1559916587647" expanded="true" signature="6:84" ph="..." />
-                <marker date="1559916587647" expanded="true" signature="121:3113" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="128:438" ph="Configuration Parameters" />
-                <marker date="1559916587647" expanded="true" signature="448:684" ph="Private Members" />
-                <marker date="1559916587647" expanded="true" signature="690:783" ph="Cached References" />
-                <marker date="1559916587647" expanded="true" signature="793:1149" ph="Unity Events" />
-                <marker date="1559916587647" expanded="true" signature="896:1009" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="1075:1129" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="1159:3111" ph="Private Methods" />
-                <marker date="1559916587647" expanded="true" signature="1207:1454" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="1255:1342" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="1383:1448" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="1498:1814" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="1525:1808" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="1863:2501" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="2068:2495" ph="{...}" />
-                <marker date="1559916587647" expanded="true" signature="2536:3091" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
+        <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+            <state relative-caret-position="105">
+              <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
               <folding>
-                <marker date="1559948717569" expanded="false" signature="6:78" ph="..." />
-                <marker date="1559948717569" expanded="true" signature="117:341" ph="{...}" />
-                <marker date="1559948717569" expanded="true" signature="189:210" ph="{...}" />
-                <marker date="1559948717569" expanded="true" signature="268:289" ph="{...}" />
+                <marker date="1560258472566" expanded="false" signature="6:78" ph="..." />
+                <marker date="1560258472566" expanded="true" signature="121:458" ph="{...}" />
+                <marker date="1560258472566" expanded="true" signature="132:253" ph="Configuration Parameters" />
+                <marker date="1560258472566" expanded="true" signature="263:296" ph="State" />
+                <marker date="1560258472566" expanded="true" signature="306:351" ph="Cached References" />
+                <marker date="1560258472566" expanded="true" signature="361:403" ph="Public Methods" />
+                <marker date="1560258472566" expanded="true" signature="413:456" ph="Private Methods" />
               </folding>
             </state>
           </provider>
@@ -68,7 +51,8 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Plugins/Editor.meta" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -76,6 +60,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Shredder.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs" />
       </list>
     </option>
   </component>
@@ -100,6 +85,10 @@
           <select />
         </subPane>
       </pane>
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="AssemblyExplorer" />
       <pane id="UnityExplorer">
         <subPane>
           <expand>
@@ -107,21 +96,12 @@
               <item name="" type="e068e287:UnityExplorerRootNode" />
               <item name="Assets" type="8711f2a6:AssetsRoot" />
             </path>
-            <path>
-              <item name="" type="e068e287:UnityExplorerRootNode" />
-              <item name="Assets" type="8711f2a6:AssetsRoot" />
-              <item name="Scripts" type="1045f7f1:UnityExplorerNode" />
-            </path>
           </expand>
           <select />
         </subPane>
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -172,6 +152,8 @@
       <workItem from="1559912552362" duration="4059000" />
       <workItem from="1559916773378" duration="57000" />
       <workItem from="1559947862147" duration="715000" />
+      <workItem from="1560252173671" duration="4594000" />
+      <workItem from="1560304383719" duration="560000" />
     </task>
     <task id="LOCAL-00001" summary="Generated project and solution files">
       <created>1559259740818</created>
@@ -205,7 +187,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7312000" />
+    <option name="totallyTimeSpent" value="12466000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -219,7 +201,7 @@
   <component name="ToolWindowManager">
     <frame x="67" y="0" width="1311" height="1087" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17905675" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18385291" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -232,7 +214,7 @@
       <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49960032" visible="true" weight="0.32889345" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49960032" visible="true" weight="0.14959016" />
       <window_info anchor="bottom" id="Unity" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
       <window_info anchor="bottom" id="Terminal" order="13" />
@@ -272,10 +254,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/ScriptTemplate.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <marker date="1559568271174" expanded="true" signature="26:333" ph="{...}" />
+            <marker date="1559568271174" expanded="true" signature="60:331" ph="{...}" />
+            <marker date="1559568271174" expanded="true" signature="75:126" ph="Configuration Parameters" />
+            <marker date="1559568271174" expanded="true" signature="136:168" ph="State" />
+            <marker date="1559568271174" expanded="true" signature="178:222" ph="Cached References" />
+            <marker date="1559568271174" expanded="true" signature="232:273" ph="Public Methods" />
+            <marker date="1559568271174" expanded="true" signature="283:325" ph="Private Methods" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
+          <folding>
+            <marker date="1560255633515" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560255633515" expanded="true" signature="117:228" ph="{...}" />
+            <marker date="1560255633515" expanded="true" signature="175:226" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/Player.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="427">
-          <caret line="70" column="38" selection-start-line="70" selection-start-column="38" selection-end-line="70" selection-end-column="38" />
+        <state relative-caret-position="1200">
+          <caret line="80" column="46" selection-start-line="80" selection-start-column="46" selection-end-line="80" selection-end-column="46" />
           <folding>
             <marker date="1559916587647" expanded="true" signature="6:84" ph="..." />
             <marker date="1559916587647" expanded="true" signature="121:3113" ph="{...}" />
@@ -298,15 +308,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/Scripts/Shredder.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/Scripts/EnemyPathing.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="20" column="7" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
+        <state relative-caret-position="105">
+          <caret line="9" column="41" selection-start-line="9" selection-start-column="41" selection-end-line="9" selection-end-column="41" />
           <folding>
-            <marker date="1559948717569" expanded="false" signature="6:78" ph="..." />
-            <marker date="1559948717569" expanded="true" signature="117:341" ph="{...}" />
-            <marker date="1559948717569" expanded="true" signature="189:210" ph="{...}" />
-            <marker date="1559948717569" expanded="true" signature="268:289" ph="{...}" />
+            <marker date="1560258472566" expanded="false" signature="6:78" ph="..." />
+            <marker date="1560258472566" expanded="true" signature="121:458" ph="{...}" />
+            <marker date="1560258472566" expanded="true" signature="132:253" ph="Configuration Parameters" />
+            <marker date="1560258472566" expanded="true" signature="263:296" ph="State" />
+            <marker date="1560258472566" expanded="true" signature="306:351" ph="Cached References" />
+            <marker date="1560258472566" expanded="true" signature="361:403" ph="Public Methods" />
+            <marker date="1560258472566" expanded="true" signature="413:456" ph="Private Methods" />
           </folding>
         </state>
       </provider>
