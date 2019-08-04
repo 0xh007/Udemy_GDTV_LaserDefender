@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\Users\victo\.Rider2019.1\config\scratches" t="IncludeRecursive" />
     <e p="C:\Users\victo\.Rider2019.1\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\victo\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_Udemy_GDTV_LaserDefender.-913601141.00" t="ExcludeRecursive" />
     <e p="G:\dev\Repos\Udemy_GDTV_LaserDefender" t="IncludeRecursive">
@@ -12,6 +11,7 @@
           <e p="Player.cs" t="Include" />
           <e p="ScriptTemplate.cs" t="Include" />
           <e p="Shredder.cs" t="Include" />
+          <e p="WaveConfig.cs" t="Include" />
         </e>
         <e p="Z - Assets Staging" t="Include">
           <e p="Space Shooter Visual Assets" t="Include">
